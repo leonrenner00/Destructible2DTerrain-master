@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/*public class ExplosionScript : MonoBehaviour
+public class ExplosionScript : MonoBehaviour
 {
     [SerializeField] float blastRadius = 1.5f;
     [SerializeField] DestructableTerrain terrain;
     private void Start()
     {
         // 1. Damage terrain
-        terrain.Dig(transform.position, blastRadius);
+        terrain.DestroyArea(transform.position);
 
         // 2. Knock back physics bodies
         foreach (Collider2D col in Physics2D.OverlapCircleAll(transform.position, blastRadius))
@@ -31,4 +31,3 @@ using UnityEngine;
         Gizmos.DrawWireSphere(transform.position, blastRadius);
 #endif
 }
-*/

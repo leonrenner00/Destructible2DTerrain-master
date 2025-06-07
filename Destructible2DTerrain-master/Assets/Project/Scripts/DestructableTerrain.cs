@@ -59,7 +59,7 @@ public class DestructableTerrain : MonoBehaviour
         ConstructMeshes();
     }
 
-    private void DestroyArea(Vector3 position)
+    public void DestroyArea(Vector3 position)
     {
         int x = (int) (position.x * _pixelsPerUnit) + (_texture2D.width/ 2);
         int y = (int) (position.y * _pixelsPerUnit) + (_texture2D.height/2);
@@ -118,13 +118,5 @@ public class DestructableTerrain : MonoBehaviour
             Normal = transform.forward
         };
     }
-    public void Dig(Vector2 position, float radius)
-    {
-        int x = (int) (position.x * _pixelsPerUnit) + (_texture2D.width/ 2);
-        int y = (int) (position.y * _pixelsPerUnit) + (_texture2D.height/2);
-        
-        _terrainData.DestroyTerrain(x,y, (int) (radius* _pixelsPerUnit));
-        _quadTree = new QuadTree(_terrainData);
-        ConstructMeshes();
-    }
+    
 }
