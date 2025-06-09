@@ -1,5 +1,9 @@
 {
   "dependencies": {
+<<<<<<< Updated upstream
+=======
+    "com.unity.2d.sprite": "1.0.0",
+>>>>>>> Stashed changes
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.development": "1.0.1",
     "com.unity.textmeshpro": "3.0.6",
