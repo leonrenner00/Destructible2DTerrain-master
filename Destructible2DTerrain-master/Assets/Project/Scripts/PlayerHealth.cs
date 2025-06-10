@@ -7,9 +7,14 @@ public class PlayerHealth : MonoBehaviour
     private int currentHealth;
     private Rigidbody2D rb;
 
-    public float knockbackForce = 10f; // Stärke des Sprungs / Rückstoß
+    public float knockbackForce = 10f;
+    public bool isDead { get; private set; } = false;
 
-    public bool isDead { get; private set; } = false; // <- öffentlich lesbar für andere Skripte
+    public int CurrentHealth => currentHealth;
+
+    public GameOverManager gameOverManager; // Referenz im Inspector setzen
+
+    private bool canTakeDamage = true; // Steuerung, ob Schaden möglich ist
 
     void Start()
     {
@@ -25,15 +30,14 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
-        if (isDead) return; // <- Kein Schaden nach dem Tod
+        if (isDead || !canTakeDamage) return; // Schaden ignorieren wenn tot oder deaktiviert
 
         currentHealth -= amount;
         Debug.Log("Player took damage! Current health: " + currentHealth);
 
-        // Nach oben „springen“ (Knockback)
         if (rb != null)
         {
-            rb.velocity = new Vector2(rb.velocity.x, 0f); // Vertikale Geschwindigkeit resetten
+            rb.velocity = new Vector2(rb.velocity.x, 0f);
             rb.AddForce(Vector2.up * knockbackForce, ForceMode2D.Impulse);
         }
 
@@ -45,21 +49,30 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-        isDead = true; // <- Tot markieren
+        isDead = true;
+        canTakeDamage = false; // Schaden deaktivieren
 
         int deathLayerIndex = animator.GetLayerIndex("deathLayer");
 
         Debug.Log("Player died!");
         animator.SetLayerWeight(deathLayerIndex, 1f);
         animator.Play("Death", deathLayerIndex, 0f);
+        gameOverManager.ShowGameOver();
+        gameObject.SetActive(true);
 
-        // Optional: Physik einfrieren
         if (rb != null)
         {
             rb.velocity = Vector2.zero;
             rb.constraints = RigidbodyConstraints2D.FreezeAll;
         }
 
-        // Hier kannst du Game Over, Respawn usw. einbauen
+        if (gameOverManager != null)
+        {
+            gameOverManager.ShowGameOver();
+        }
+        else
+        {
+            Debug.LogWarning("GameOverManager ist nicht gesetzt!");
+        }
     }
 }
