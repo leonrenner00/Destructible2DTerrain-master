@@ -164,3 +164,9 @@ MonoBehaviour:
   damage: 10
   owner: {fileID: 0}
   explosionPrefab: {fileID: 7730763456058019290, guid: 3bdddeeaef418ff4bb29017f6f5dfa05, type: 3}
+  explosionSounds:
+  - {fileID: 8300000, guid: 7e3eaf976c77bd7419299c0763752c41, type: 3}
+  - {fileID: 8300000, guid: af4bbd293105dac49bc7fc552100c9f7, type: 3}
+  - {fileID: 8300000, guid: 8e6f7af4c472e884c989c70ef23725e9, type: 3}
+  explosionSoundPitch: 1.5
+  explosionSoundVolume: 0.3
