@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c1698f51a3c97b7428c3ed709591518c
+guid: 32efec1d8eeaaa34a8f8318919e4d506
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Owlet_Monster_Death_8_0
+      name: Explosion_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,62 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdb939c7c7e77f8438eebf4ccf4e6065
-      internalID: -458747320
+      spriteID: af51cf8bf0ad56241b14078d35049ce1
+      internalID: -1957734693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Owlet_Monster_Death_8_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec329008ed8e3c04ca1646ba10b37c2d
-      internalID: 1314934229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Owlet_Monster_Death_8_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 722d82c6e3d4cce4c8641269b2ce07e2
-      internalID: -1127093630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Owlet_Monster_Death_8_3
+      name: Explosion_1
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,62 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c82741582b1c6a4dbc9b2fe07bfc5e1
-      internalID: 1319041052
+      spriteID: 7594453b5bd3b644e8e877e618d056ad
+      internalID: -1177255639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Owlet_Monster_Death_8_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc0a0797ff245904c876e13da31ac761
-      internalID: 2050860154
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Owlet_Monster_Death_8_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f8492cca88029049814ac7475d647aa
-      internalID: -610873916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Owlet_Monster_Death_8_6
+      name: Explosion_2
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f043ef883985be34382ddc96d0e416f3
-      internalID: 1698312826
+      spriteID: 2eb96db6d1151434ab5b2042ef31b3ad
+      internalID: -997309325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Owlet_Monster_Death_8_7
+      name: Explosion_3
       rect:
         serializedVersion: 2
-        x: 224
+        x: 288
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,8 +187,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5df597c966e1bd4c9934d397f64c4f4
-      internalID: -443915679
+      spriteID: 43fd2d9342cb15141aa40e263af7ed7e
+      internalID: -2030316146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93db8cadd8ee2e34985db232cfb4abbb
+      internalID: -1757672399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e10ef8da74d498418da3a714ca92780
+      internalID: 1070255042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd3afdcb4dd1b349a75c53602ad1c41
+      internalID: 943754624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce000c7a87275964f924a51009f50d6a
+      internalID: -2019957697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619342c60e14ff84580c7be0aea8ca77
+      internalID: -803271059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ebb39447c3f2643961210301f109b5
+      internalID: 847161615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b61b6d437a83e047b0e274cfed3a61b
+      internalID: -857072410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_11
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b1112b77d8b5541b8361dd9d7cfacc
+      internalID: 1942621554
       vertices: []
       indices: 
       edges: []
@@ -280,7 +364,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 9e7f01cb06dcbd242b9d0e29a29dc21f
     internalID: 0
     vertices: []
     indices: 
@@ -288,14 +372,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Owlet_Monster_Death_8_0: -458747320
-      Owlet_Monster_Death_8_1: 1314934229
-      Owlet_Monster_Death_8_2: -1127093630
-      Owlet_Monster_Death_8_3: 1319041052
-      Owlet_Monster_Death_8_4: 2050860154
-      Owlet_Monster_Death_8_5: -610873916
-      Owlet_Monster_Death_8_6: 1698312826
-      Owlet_Monster_Death_8_7: -443915679
+      Explosion_0: -1957734693
+      Explosion_1: -1177255639
+      Explosion_10: -857072410
+      Explosion_11: 1942621554
+      Explosion_2: -997309325
+      Explosion_3: -2030316146
+      Explosion_4: -1757672399
+      Explosion_5: 1070255042
+      Explosion_6: 943754624
+      Explosion_7: -2019957697
+      Explosion_8: -803271059
+      Explosion_9: 847161615
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

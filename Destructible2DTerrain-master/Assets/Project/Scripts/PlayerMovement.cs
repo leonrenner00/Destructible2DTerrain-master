@@ -14,16 +14,28 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private SpriteRenderer spriteRenderer;
     private bool isGrounded;
+    private PlayerHealth playerHealth; // <- Referenz zum Health-Skript
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        playerHealth = GetComponent<PlayerHealth>(); // <- Referenz holen
     }
 
     void Update()
     {
+        if (playerHealth != null && playerHealth.isDead)
+        {
+            // Optional: Alles stoppen
+            rb.velocity = Vector2.zero;
+            animator.SetFloat("xVelocity", 0f);
+            animator.SetFloat("yVelocity", 0f);
+            animator.SetBool("isJumping", false);
+            return;
+        }
+
         // Movement input
         float moveInput = Input.GetAxisRaw("Horizontal");
 

@@ -11,6 +11,7 @@ public class ProjectileShooter : MonoBehaviour
     public Image chargeBarImage;
 
     private float chargeTime = 0f;
+    private float lastChargeTime = 0f;
     private bool isCharging = false;
 
     private Animator animator;
@@ -38,7 +39,7 @@ public class ProjectileShooter : MonoBehaviour
                 chargeBarImage.enabled = true;
                 float t = chargeTime / maxChargeTime;
                 chargeBarImage.fillAmount = t;
-                chargeBarImage.color = t < 0.5f 
+                chargeBarImage.color = t < 0.5f
                     ? Color.Lerp(Color.green, Color.red, t * 2)
                     : Color.Lerp(Color.red, Color.blue, (t - 0.5f) * 2);
             }
@@ -48,11 +49,11 @@ public class ProjectileShooter : MonoBehaviour
         {
             if (animator != null)
             {
-                animator.SetTrigger("throw"); // spielt ChargeEndThrow
+                animator.SetTrigger("throw"); // Trigger für ChargeEndThrow
                 StartCoroutine(ResetChargeBlend());
             }
 
-            ShootProjectile();
+            lastChargeTime = chargeTime;  // Speichern vor Reset
 
             chargeTime = 0f;
             isCharging = false;
@@ -65,15 +66,24 @@ public class ProjectileShooter : MonoBehaviour
         }
     }
 
-    void ShootProjectile()
+    public void ShootProjectile()
     {
+        Debug.Log("ShootProjectile wurde durch Animation ausgelöst");
+
         GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
+
+        // Setze den Owner, damit das Projektil weiß, wer es abgeschossen hat
+        Projectile projScript = projectile.GetComponent<Projectile>();
+        if (projScript != null)
+        {
+            projScript.owner = this.gameObject;
+        }
 
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = shootPoint.position.z;
 
         Vector2 shootDirection = (mousePos - shootPoint.position).normalized;
-        float force = (chargeTime / maxChargeTime) * maxShootForce;
+        float force = (lastChargeTime / maxChargeTime) * maxShootForce;
 
         Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
         if (rb != null)
@@ -85,7 +95,7 @@ public class ProjectileShooter : MonoBehaviour
 
     IEnumerator ResetChargeBlend()
     {
-        yield return new WaitForSeconds(0.3f); // Warte auf ChargeEndThrow
+        yield return new WaitForSeconds(0.3f); // Warte auf Animation (optional)
         if (animator != null)
             animator.SetFloat("chargeBlend", 0f);
     }
