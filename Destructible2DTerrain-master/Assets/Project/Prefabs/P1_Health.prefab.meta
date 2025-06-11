@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 98c5674746243bb47b1e1500692be91b
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Project/Prefabs/P1_Health.prefab.meta
+guid: 68de95411dd8c0743a5363e6f06e5622
+========
+guid: 451e735170fa2534d9375b85885d9cc5
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/Prefabs/PlayerHealthUI.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

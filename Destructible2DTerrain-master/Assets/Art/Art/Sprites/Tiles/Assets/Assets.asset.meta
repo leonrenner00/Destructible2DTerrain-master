@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 1706c11215666794181973985d306b1d
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Art/Art/Sprites/Tiles/Assets/Assets.asset.meta
+guid: 43eb732b28eac554f976be3ae8705a8e
+========
+guid: ebabf76e823ad9c4dbb568e7bb013fab
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/Prefabfortransport/Sprites/Assets_0.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 6e91defa501dd3b40b2bbac5e3a932a1
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Project/Scripts/Terrain.meta
+guid: fdab3c7ce1096c04da0a1ff2457267fb
+========
+guid: 958780dfb931fa24aaebb32b5a3fa96e
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/Prefabfortransport/Sprites.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

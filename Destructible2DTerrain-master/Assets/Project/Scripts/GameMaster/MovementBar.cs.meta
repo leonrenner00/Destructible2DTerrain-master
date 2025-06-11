@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 944dc886062142b44bedde6d95add62b
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Project/Scripts/GameMaster/MovementBar.cs.meta
+guid: ae4fbd59b1afd854bbf2deaf3fcbe6a4
+========
+guid: 92b59cc9c3c21f146ab8844c0ff014a5
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/Scripts/Extra/ProjectileShooter.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: e372ae41fc0599b4e8cd5591aa5ee2b8
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Project/Scripts/Terrain/TileMapDestruction.cs.meta
+guid: dd91baf15400d50449fb6b57318d2f7b
+========
+guid: 76743a48b4acfd84e92e8a0a65bbb057
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/Scripts/Extra/TileMapDestruction.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

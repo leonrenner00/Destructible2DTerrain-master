@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 30fcd77cf2ccb2043b853c7b3c3c5b87
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Project/Scripts/GameMaster/HealthBar.cs.meta
+guid: da3a6dcd6f8c85a4591cacc1b0b08f5d
+========
+guid: 944dc886062142b44bedde6d95add62b
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/LeonScripts/GameMaster/MovementBar.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 79543b2bf93b1e240af2afc784c90470
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Project/Scripts/Players.meta
+guid: 0d0f799f28668f54d9421b1b8e6025ae
+========
+guid: be95315a185818b43ab983a5850d3bd0
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/Scripts/Extra.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

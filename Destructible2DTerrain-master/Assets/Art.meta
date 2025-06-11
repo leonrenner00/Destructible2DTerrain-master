@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 2d005a3ab3db4ac4bbf741379771a7e9
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Art.meta
+guid: d5d20669c2d411147996a996d5aa92ba
+========
+guid: e50b752fa33e4e549b10be72cbd3a1d1
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/LeonScripts.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: ee0bb4d6b7df0d84695a78a8b7067a0c
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Project/Scripts/GameMaster.meta
+guid: 8047734ea2cf2ab47a7b66e46debcb63
+========
+guid: f406d2a3b6b53d34aa2b98f95581d808
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/Prefabfortransport.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

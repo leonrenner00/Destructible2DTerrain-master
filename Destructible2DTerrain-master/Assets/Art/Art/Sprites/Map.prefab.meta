@@ -1,6 +1,11 @@
 fileFormatVersion: 2
-guid: ea452d7b2020e3e46b80916f7a626084
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Art/Art/Sprites/Map.prefab.meta
+guid: 71c7764ba63afc44993517f2440d4487
 PrefabImporter:
+========
+guid: 11ddc87e2d5285b4395a9facbba1bf7e
+DefaultImporter:
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Scenes/GameScene.unity.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
