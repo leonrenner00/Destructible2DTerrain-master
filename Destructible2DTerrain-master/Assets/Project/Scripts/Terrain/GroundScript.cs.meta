@@ -1,7 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Project/Scripts/Terrain/GroundScript.cs.meta
 guid: 3249546d043be974eb82c708f02addef
 timeCreated: 1524961311
 licenseType: Free
+========
+guid: c9bd67571d3175844af57542c756c79d
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/Scripts/Terrain/TileMapDestruction.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

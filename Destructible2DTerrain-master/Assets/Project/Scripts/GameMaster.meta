@@ -1,5 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Project/Scripts/GameMaster.meta
 guid: ee0bb4d6b7df0d84695a78a8b7067a0c
+========
+guid: aadc5ccd27b7e9748b60e318a63755cb
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/Scripts/Player.meta
+=======
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Art.meta
+guid: 2d005a3ab3db4ac4bbf741379771a7e9
+========
+guid: 6aedcf41ecc79c2438b28e3655bf1c97
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/Scripts/GameMaster.meta
+>>>>>>> Stashed changes
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

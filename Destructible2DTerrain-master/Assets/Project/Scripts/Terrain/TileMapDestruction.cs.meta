@@ -1,5 +1,19 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Project/Scripts/Terrain/TileMapDestruction.cs.meta
 guid: e372ae41fc0599b4e8cd5591aa5ee2b8
+========
+guid: 2402c56aab83c874ca3d9d127cf2c661
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/Scripts/GameMaster/MovementBar.cs.meta
+=======
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Project/Scripts/Terrain/GroundScript.cs.meta
+guid: 3249546d043be974eb82c708f02addef
+timeCreated: 1524961311
+licenseType: Free
+========
+guid: c9bd67571d3175844af57542c756c79d
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/Scripts/Terrain/TileMapDestruction.cs.meta
+>>>>>>> Stashed changes
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

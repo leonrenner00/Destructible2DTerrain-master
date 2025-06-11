@@ -13,6 +13,7 @@ public class HealthBar : MonoBehaviour
     {
         if (!player || !fill) return;
 
+<<<<<<< Updated upstream
         float ratio = player.current / (float)player.maxHealth;
         fill.fillAmount = ratio;
 
@@ -21,3 +22,12 @@ public class HealthBar : MonoBehaviour
     }
 }
 
+=======
+        float ratio = player.CurrentHealth / (float)player.maxHealth;
+        fill.fillAmount = ratio;
+
+        if (valueLabel)
+            valueLabel.text = $"{player.CurrentHealth} / {player.maxHealth}";
+    }
+}
+>>>>>>> Stashed changes

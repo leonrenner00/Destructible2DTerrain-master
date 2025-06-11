@@ -16,3 +16,7 @@ public class MovementBar : MonoBehaviour
     }
 }
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes

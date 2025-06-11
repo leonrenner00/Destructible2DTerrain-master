@@ -1,5 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Project/Scripts/GameMaster/MovementBar.cs.meta
 guid: 944dc886062142b44bedde6d95add62b
+========
+guid: 21e7860d36f72be4fa67a6b655df9616
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/Scripts/GameMaster/CameraFollowTarget.cs.meta
+=======
+<<<<<<<< Updated upstream:Destructible2DTerrain-master/Assets/Project/Scripts/Terrain/TileMapDestruction.cs.meta
+guid: e372ae41fc0599b4e8cd5591aa5ee2b8
+========
+guid: 2402c56aab83c874ca3d9d127cf2c661
+>>>>>>>> Stashed changes:Destructible2DTerrain-master/Assets/Project/Scripts/GameMaster/MovementBar.cs.meta
+>>>>>>> Stashed changes
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

@@ -69,8 +69,12 @@ public class TurnManager : MonoBehaviour
         if (bar) bar.player = p;
 
         /* update Cinemachine follow */
+<<<<<<< Updated upstream
         var vcam = FindObjectOfType<Cinemachine.CinemachineVirtualCamera>();
         if (vcam) vcam.Follow = p.transform;
+=======
+        CameraFollowTarget.I.SetPlayer(player[current].transform);
+>>>>>>> Stashed changes
     }
     
     public void HideBannerIfCurrent(PlayerMovement caller)
@@ -84,5 +88,8 @@ public class TurnManager : MonoBehaviour
     
     
 }
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
